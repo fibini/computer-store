@@ -8,3 +8,8 @@
   margin: 0;
   padding: 0;  
 }
+
+#about {
+  background-image: url(/src/assets/images/computer-store-background.jpg);
+  background-size: 480px;
+}
