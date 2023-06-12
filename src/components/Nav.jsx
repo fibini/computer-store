@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { AiFillCompass } from 'react-icons/ai'
 import { BsFillBackspaceReverseFill } from 'react-icons/bs'
 import logo from "/src/assets/images/logo.jpg"
@@ -19,11 +20,21 @@ export default function Nav()
                 < BsFillBackspaceReverseFill size= '50' cursor='pointer' />
             </button>
             <ul className=' text-3xl text-center justify-center'>
-                <li className=' mb-5 cursor-pointer'>HOME</li>
-                <li className=' mb-5 cursor-pointer'>ABOUT US</li>
-                <li className=' mb-5 cursor-pointer'>PRODUCTS</li>
-                <li className=' mb-5 cursor-pointer'>SERVICES</li>
-                <li className=' mb-5 cursor-pointer'>CONTACT</li>
+                <li className=' mb-5 cursor-pointer' onClick={() => setMenuOpen(false)}>
+                    <NavLink to="/">HOME</NavLink>
+                </li>
+                <li className=' mb-5 cursor-pointer' onClick={() => setMenuOpen(false)}>
+                    <NavLink to="/about">ABOUT US</NavLink>
+                </li>
+                <li className=' mb-5 cursor-pointer' onClick={() => setMenuOpen(false)}>
+                    <NavLink to="/products">PRODUCTS</NavLink>
+                </li>
+                <li className=' mb-5 cursor-pointer' onClick={() => setMenuOpen(false)}>
+                    <NavLink to="/services">SERVICES</NavLink>
+                </li>
+                <li className=' mb-5 cursor-pointer' onClick={() => setMenuOpen(false)}>
+                    <NavLink to="/contact">CONTACT</NavLink>
+                </li>
             </ul>
         </div>
         )}

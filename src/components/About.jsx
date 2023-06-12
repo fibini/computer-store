@@ -2,9 +2,9 @@ export default function About()
 {
     return(
         <>
-        <section id="about" className=" flex flex-col justify-center h-full items-center">
-            <h1 className="bg-white text-3xl font-bold">ABOUT US</h1>
-            <div className="text-center bg-white w-1/2 h-auto">
+        <section id="about" className=" flex flex-col justify-center h-full items-center gap-3">
+            <h1 className="bg-white text-3xl font-bold rounded-md border-black border-2">ABOUT US</h1>
+            <div className="text-center bg-white max-w-md h-auto rounded-md border-black border-2 ">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, alias quam? Atque similique temporibus debitis quis nihil harum ipsam, amet sapiente expedita saepe, officiis cupiditate id, ab porro itaque possimus.
                 Rerum saepe quasi molestiae sint accusantium iste, iure dolorum. Nostrum consectetur unde magnam delectus. Sint, vero dolor cupiditate assumenda ratione cumque perspiciatis dolores rem voluptatem beatae modi nulla ipsum repudiandae.
                 Ducimus minima autem voluptatem quas, suscipit quibusdam commodi repellat vitae? Minus ipsam perspiciatis accusamus aliquam sit quis perferendis! Culpa totam dolorem ducimus eius quam adipisci possimus veniam repellat modi incidunt.
